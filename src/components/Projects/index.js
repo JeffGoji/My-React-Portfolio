@@ -1,24 +1,23 @@
 import React from 'react';
+//card images:
 import enterprisingsolutions from '../../assets/enterprisingsolutions.png';
 import techblog1 from '../../assets/techblog1.png';
+import webapi from '../../assets/webapi.jpg'
 
 
 
 
-function Nav() {
+function Projects() {
 
     return (
 
         <div id="projects" className="container-fluid">
             <div className="row mt-3">
-                <a href="projects"></a>
                 <div id="projects" className="section-title">
                     <div className="row">
-                        <h2 className="text-center card-header bg-primary text-white mt-5 mb-3">Projects</h2>
+                        <h2 className="text-center card-header text-white mt-5 mb-3">Projects</h2>
                     </div>
-                    <div className="row">
-                        <h4 className="mt-4">Full-Stack projects</h4>
-                    </div>
+
                     <div className="row mt-3">
                         <div className="card rounded-2 card-shadow m-1 mt-3 mb-4" style={{ width: '25rem' }}>
                             <a href="./assets/techblog1.png" rel="noreferrer"><img src={techblog1}
@@ -62,6 +61,8 @@ function Nav() {
 
                             </div>
                         </div>
+
+                        {/* Second Card */}
 
                         <div className="card rounded-2 card-shadow m-1 mt-3 mb-4" style={{ width: '25rem' }}>
                             <a href="./assets/enterprisingsolutions.png" rel="noreferrer"><img
@@ -109,7 +110,34 @@ function Nav() {
                             </div>
                         </div>
 
+                        {/* Third card */}
 
+                        <div className="card rounded-2 card-shadow m-1 mt-3 mb-4" style={{ width: '25rem' }}>
+                            <a href="./assets/webapi.jpg" target="_blank" rel="noreferrer"><img
+                                src={webapi} alt="Social Network Web API"
+                                className="rounded card-img-top"></img></a>
+                            <div className="card-body">
+                                <h6 className="card-title">Social Network Web API</h6>
+                                <p className="card-text">This is an API project for a social network web application that utilizes MongoDB, Express.js, and Mongoose. Users can post their thoughts, react to friend's thoughts, and can add or remove friends from their personal list. This is strictly a back-end project, so you will need to use Insomnia Core or Postman to access the routes.
+
+                                </p>
+                                <h6><b>Technology used</b></h6>
+                                <ul>
+                                    <li>Express: 4.17.1</li>
+                                    <li>Mongoose: 6.1.2</li>
+                                    <li>Mongo DB</li>
+                                </ul>
+                            </div>
+                            <div class="card-body">
+                                <a href="https://github.com/JeffGoji/social-network-api" target="_blank" rel="noreferrer"
+                                    class="card-link">GitHub
+                                    Page
+                                    link</a>
+
+                            </div>
+                        </div>
+
+                        {/* End of cards */}
 
                     </div>
 
@@ -120,4 +148,4 @@ function Nav() {
     );
 }
 
-export default Nav;
+export default Projects;

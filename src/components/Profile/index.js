@@ -7,7 +7,7 @@ function Profile() {
 
     return (
         <div id="profile" className="container-fluid">
-            <div className=" row mb-3">
+            <div className=" row mb-3 bg-light">
                 <div className="col-lg-3 col-md-3 col-sm-12">
                     <img src={Profile1} className="img-fluid shadow bg-primary rounded-2 m-2 mt-3" alt="Jeffrey Anderson-Lester" />
                 </div>
@@ -24,6 +24,7 @@ function Profile() {
                         React,
                         and
                         MERN.
+                        <br />
                         <br />
                         Fully versed in Windows OS, fully versed in command line and setting up and using virtual
                         environments and form control.

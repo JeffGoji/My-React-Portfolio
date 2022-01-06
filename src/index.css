@@ -4,9 +4,9 @@
   --secondary-color: rgb(255, 255, 255);
   --tertiary-color: rgb(230, 230, 230);
   --card-color: rgb(194, 216, 223);
-  --shadow: rgb(60, 97, 219);
-  --outline: rgb(21, 66, 214);
-  --button: rgb(33, 51, 109);
+  --shadow: rgb(219, 60, 60);
+  --outline: rgb(214, 21, 21);
+  --button: rgb(109, 33, 33);
 }
 
 /*HTML, body section*/
@@ -27,8 +27,8 @@ body {
 
 /*Header and Nav styling*/
 
-header {
-  background: linear-gradient(to top, rgb(0, 79, 224), rgb(1, 151, 252));
+nav {
+  background: linear-gradient(to top, rgb(224, 0, 0), rgb(0, 0, 0));
 }
 
 header h1 {
@@ -92,11 +92,13 @@ h4 {
 }
 
 .card-header {
-  background-color: lightgray;
+  background: linear-gradient(to top, rgb(0, 0, 0), rgb(224, 0, 0));
 }
 
 .card-title {
   font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px red;
 }
 
 .card-shadow {
@@ -109,13 +111,27 @@ h4 {
 footer {
   margin-top: 200px;
   height: 60px;
-  background: linear-gradient(to bottom, rgb(29, 142, 248), rgb(0, 70, 184));
+  background: linear-gradient(to bottom, rgb(248, 29, 29), rgb(68, 0, 0));
   color: var(--secondary-color);
   text-shadow: 1px 1px 3px var(--primary-color);
 }
 
 footer h4 {
   text-shadow: 2px 2px 2px var(--primary-color);
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:active,
+footer a.active {
+  color: #95bcf0;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #95bcf0;
+  text-decoration: none;
 }
 
 /*End of Footer styling*/

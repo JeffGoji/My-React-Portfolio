@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Card from "../Card"
 
+
 const projects = [
 
     {
@@ -59,9 +60,9 @@ function Projects(props) {
 
     return (
 
-        <section id="projects" className="container-fluid">
-            <div className="row mt-3">
-                <h2 className="text-center card-header bg-primary text-white mt-5 mb-3">Projects</h2>
+        <section id="projects" className="container-lg box-padding content-box mt-2 rounded-3">
+            <div className="row">
+                <h2 className="text-center card-header rounded-3 text-white mb-3">Projects</h2>
             </div>
             <div className="row mb-5">
 

@@ -7,32 +7,36 @@ import { Route } from 'react-router-dom';
 
 function Header() {
 
-    const navLinks = [
-        {
-            name: "AboutMe",
-            description:
-                "Developer biography"
-        },
-        {
-            name: "Projects",
-            description: "A list of my last 6 projects"
-        },
-        {
-            name: "Resume",
-            description: "My Resume"
-        },
-        {
-            name: "Contact",
-            description: "Contact Page"
-        },
-    ];
+    // const navLinks = [
+    //     {
+    //         id: 1,
+    //         name: "AboutMe",
+    //         description:
+    //             "Developer biography"
+    //     },
+    //     {
+    //         id: 2,
+    //         name: "Projects",
+    //         description: "A list of my last 6 projects"
+    //     },
+    //     {
+    //         id: 3,
+    //         name: "Resume",
+    //         description: "My Resume"
+    //     },
+    //     {
+    //         id: 4,
+    //         name: "Contact",
+    //         description: "Contact Page"
+    //     },
+    // ];
 
 
 
     return (
         <header className="container-fluid">
             <div className="row">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
 
                     <h1 className="p-2 text-white">JEFFREY ANDERSON-LESTER</h1>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,20 +45,18 @@ function Header() {
                     <div className="collapse navbar-collapse" id="navbarText">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className="nav-link" aria-current="page" to="Profile">About Me</NavLink>
+                                <NavLink className="nav-link" aria-current="page" to="Profile">About</NavLink>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <NavLink className="nav-link" to="../Projects">Projects</NavLink>
                             </li>
-                            <li class="nav-item">
-                                <NavLink className="nav-link" to="assets/resume.pdf" target="_blank">My Resume</NavLink>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="../Resume">My Resume</NavLink>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <NavLink className="nav-link" to="../Contact">Contact Me</NavLink>
                             </li>
-                            {navLinks.map((name) => (
-                                <li className='nav-item'></li>
-                            ))}
+
                         </ul>
 
                     </div>

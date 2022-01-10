@@ -23,7 +23,7 @@ function Nav() {
                                 <Link className="nav-link" Link="#projects">Projects</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" Link="assets/img/resume.pdf" target="_blank">My Resume</Link>
+                                <Link className="nav-link" Link="#resume">My Resume</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" Link="#contact">Contact Me</Link>
@@ -32,32 +32,9 @@ function Nav() {
 
                     </div>
                 </nav>
-            </div>
+            </div >
 
         </div >
-
-
-
-        /* <nav className="navbar navbar-dark bg-primary">
-                        <a className="navbar-brand"Link="#">Navbar</a>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-                        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div className="navbar-nav">
-                                <a className="nav-link active" aria-current="page"Link="#profile">About Me</a>
-                                <a className="nav-link"Link="#projects">Projects</a>
-                                <a className="nav-link"Link="assets/img/resume.pdf" target="_blank">My Resume</a>
-                                <a className="nav-link"Link="#contact">Contact Me</a>
-    
-    
-                            </div>
-                        </div>
-    
-                    </nav> */
-
 
     );
 }

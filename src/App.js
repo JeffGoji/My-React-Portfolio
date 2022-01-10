@@ -6,6 +6,7 @@ import { Route } from 'react-router-dom';
 import Header from './components/Header'
 import Profile from './components/Profile'
 import Projects from './components/Projects'
+import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -19,8 +20,6 @@ function App() {
     <div>
       <Header />
 
-
-
       <Route exact path="/">
         <Profile />
       </Route>
@@ -33,10 +32,13 @@ function App() {
         <Profile />
       </Route>
 
+      <Route path="/resume">
+        <Resume />
+      </Route>
+
       <Route path="/contact">
         <Contact />
       </Route>
-
 
       <Footer />
 

@@ -4,34 +4,38 @@ import { validateEmail } from '../utils/helpers';
 
 function Contact() {
 
+
     return (
-
-        <section class="container" id="contact">
-            <form>
-                <div class="mb-3 row">
-                    <label for="inputName" class="col-sm-1-12 col-form-label"></label>
-                    <div class="col-sm-1-12">
-                        <input type="text|password|email|number|submit|date|datetime|datetime-local|month|color|range|search|tel|time|url|week" class="form-control" name="inputName" id="inputName" placeholder=""></input>
-                    </div>
+        <section className="container-sm" id="contact">
+            <div className="row p-3">
+                {/* <div classNameName='form-control'>
+                <label htmlFor='name'>Your Name</label>
+                <input type="text" id='name' />
+            </div> */}
+                <div className="mb-3">
+                    <label for="exampleFormControlInput1" className="form-label">Your Name</label>
+                    <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="John Smith" />
                 </div>
-                <fieldset class="mb-3 row">
-                    <legend class="col-form-legend col-sm-1-12">Group name</legend>
-                    <div class="col-sm-1-12">
-
-                    </div>
-                </fieldset>
-                <div class="mb-3 row">
-                    <div class="offset-sm-2 col-sm-10">
-                        <button type="submit" class="btn btn-primary">Action</button>
-                    </div>
+                <div className="mb-3">
+                    <label for="exampleFormControlInput1" className="form-label">Email address</label>
+                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                 </div>
-            </form>
+                <div className="mb-3">
+                    <label for="exampleFormControlInput1" className="form-label">Your Phone Number</label>
+                    <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="713-555-5555" />
+                </div>
+                <div className="mb-3">
+                    <label for="exampleFormControlTextarea1" className="form-label">Your Message</label>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                </div>
+                <div className="container-sm">
+                    <button type="button" className="btn btn-danger fs-4" placeholder="Your message here">Submit Form</button>
+                </div>
+            </div>
         </section>
 
 
     );
-
-
 }
 
 

@@ -63,7 +63,7 @@ function Projects(props) {
             <div className="row mt-3">
                 <h2 className="text-center card-header bg-primary text-white mt-5 mb-3">Projects</h2>
             </div>
-            <div class="row">
+            <div className="row mb-5">
 
                 {props.children}
                 {/* Map through 'portfolioList' and render a 'Card' for each project */}

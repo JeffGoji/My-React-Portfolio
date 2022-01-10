@@ -5,27 +5,6 @@ import { Link } from 'react-router-dom'
 
 function Nav() {
 
-    const navLinks = [
-        {
-            name: "AboutMe",
-            description:
-                "Developer biography"
-        },
-        {
-            name: "Projects",
-            description: "A list of my last 6 projects"
-        },
-        {
-            name: "Resume",
-            description: "My Resume"
-        },
-        {
-            name: "Contact",
-            description: "Contact Page"
-        },
-    ];
-
-
     return (
         <div class="container-fluid">
             <div class="row">
@@ -49,9 +28,6 @@ function Nav() {
                             <li class="nav-item">
                                 <Link class="nav-link" Link="#contact">Contact Me</Link>
                             </li>
-                            {navLinks.map((name) => (
-                                <li className='nav-item'></li>
-                            ))}
                         </ul>
 
                     </div>

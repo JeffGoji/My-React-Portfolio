@@ -109,8 +109,6 @@ h4 {
 /*Footer styling*/
 
 footer {
-  margin-top: 200px;
-  height: 60px;
   background: linear-gradient(to bottom, rgb(248, 29, 29), rgb(68, 0, 0));
   color: var(--secondary-color);
   text-shadow: 1px 1px 3px var(--primary-color);

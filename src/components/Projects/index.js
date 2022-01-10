@@ -1,149 +1,87 @@
-import React from 'react';
-//card images:
-import enterprisingsolutions from '../../assets/enterprisingsolutions.png';
-import techblog1 from '../../assets/techblog1.png';
-import webapi from '../../assets/webapi.jpg'
+import React, { useState } from 'react';
+import Card from "../Card"
 
+const projects = [
 
+    {
+        id: 1,
+        image: "https://jeffgoji.github.io/assets/img/techblog1.png",
+        name: "Tech-Blog 9000",
+        description: "This is a full-stack web application that utilizes a SQL database. This project is a Tech Blog site where users can browse post without logging in.If the user signs up and logs in they will be able to create their own blog post and add comments to other user's post.",
+        github: "https://github.com/JeffGoji/techblog",
+        deployed: "https://tech-notes-9000.herokuapp.com/",
+    },
+    {
+        id: 2,
+        image: "https://jeffgoji.github.io/assets/img/enterprisingsolutions.png",
+        name: "Enterprising Arrangements",
+        description: "This is a full-stack web application that utilizes a SQL database. This project is used to search and post venues in your local area.Conglomerate all venue types from multiple venue owners on the site for viewers to have easy access to the information they need.Or Sign Up and Login to post, edit, or delete venues from the site.I worked with Noah Tidwell and Ivonne",
+        github: "https://github.com/NoahTidwell/Enterprising-Arrangements",
+        deployed: "https://enterprising-arrangements1.herokuapp.com/",
+    },
+    {
+        id: 3,
+        image: "https://jeffgoji.github.io/assets/img/webapi.jpg",
+        name: "Social Network Web API",
+        description: "This is an API project for a social network web application that utilizes MongoDB, Express.js, and Mongoose. Users can post their thoughts, react to friend's thoughts, and can add or remove friends from their personal list. This is strictly a back-end project, so you will need to use Insomnia Core or Postman to access the routes.",
+        github: "https://github.com/JeffGoji/social-network-api",
+        deployed: "#none",
+    },
+    {
+        id: 4,
+        image: "https://jeffgoji.github.io/assets/img/notetaker1.png",
+        name: "Note Taker App",
+        description: "This is a Note Taker application that uses Express.js on the back end and stores the notes into a JSON file with a unique ID for each note. You can create, save, and delete each note. You can click on a previously saved note to bring it up to view it.",
+        github: "https://github.com/JeffGoji/Note-Taker",
+        deployed: "https://jeffs-note-keeper.herokuapp.com/",
+    },
+    {
+        id: 5,
+        image: "https://jeffgoji.github.io/assets/img/teamprofile.png",
+        name: "Team Profile Generator App",
+        description: "This is a Team Profile Generator app for creating a webpage that has a list of team members and their roles and information. This app is built with nodeJS and JavaScript. It utilizes the inquirer npm package and the Jest JavaScript testing npm. The layout in the HTML is handled using Bootstrap 5.",
+        github: "https://github.com/JeffGoji/Note-Taker",
+        deployed: "https://www.youtube.com/watch?v=0BthibBNIxY",
+    },
+    {
+        id: 6,
+        image: "https://jeffgoji.github.io/assets/img/classProject1.png",
+        name: "Texas Stargazer Website",
+        description: "Front-end team project built in collaboration with Julie Summers and Reagan Price in an Agile development environment. This website utilizes HTML5, CSS3, JavaScript, and was styled with the Bulma framework. It uses two API calls for the data on the page and it is 100% mobile responsive.",
+        github: "https://rprice000.github.io/texas-stargazing/index.html",
+        deployed: "https://rprice000.github.io/texas-stargazing/index.html",
+    },
+]
 
+function Projects(props) {
+    const [projectList, setProjectList] = useState(projects);
 
-function Projects() {
 
     return (
 
-        <div id="projects" className="container-fluid">
+        <section id="projects" className="container-fluid">
             <div className="row mt-3">
-                <div id="projects" className="section-title">
-                    <div className="row">
-                        <h2 className="text-center card-header text-white mt-5 mb-3">Projects</h2>
-                    </div>
-
-                    <div className="row mt-3">
-                        <div className="card rounded-2 card-shadow m-1 mt-3 mb-4" style={{ width: '25rem' }}>
-                            <a href="./assets/techblog1.png" rel="noreferrer"><img src={techblog1}
-                                alt="techblog9000" className="rounded card-img-top" /></a>
-                            <div className="card-body">
-                                <h6 className="card-title">Tech-Blog 9000</h6>
-                                <p className="card-text">This is a full-stack web application that utilizes a SQL database.
-                                    <br />
-                                    This project is a Tech Blog site where users can browse post without logging in. If
-                                    the user signs up and logs in they will be able to create their own blog post and
-                                    add comments to other user's post.
-                                    <br />
-                                    <h6><b>Technology used</b></h6>
-                                    <ul>
-                                        <li>HTML5</li>
-                                        <li>ES6</li>
-                                        <li>CSS3</li>
-                                        <li>Bootstrap 5</li>
-                                        <li>Handlebars</li>
-                                        <li>MySQL</li>
-                                        <li>bcrypt 5.0.1</li>
-                                        <li>connect-session-sequelize 7.1.2</li>
-                                        <li>express-handlebars 6.0.1</li>
-                                        <li>express-session 1.17.2</li>
-                                        <li>express 4.17.1</li>
-                                        <li>inquirer 8.2.0</li>
-                                        <li>mysql2 2.3.3</li>
-                                        <li>sequalize 6.12.0</li>
-                                        <li>Heroku Deployment</li>
-
-                                        <li>nodemon 2.0.15 (used briefly for testing)</li>
-                                    </ul>
-                                </p>
-                            </div>
-                            <div className="card-body">
-                                <a href="https://tech-notes-9000.herokuapp.com/" rel="noreferrer" className="card-link">Web
-                                    Deployment</a>
-                                <a href="https://github.com/JeffGoji/techblog" rel="noreferrer" className="card-link">GitHub
-                                    Page
-                                    link</a>
-
-                            </div>
-                        </div>
-
-                        {/* Second Card */}
-
-                        <div className="card rounded-2 card-shadow m-1 mt-3 mb-4" style={{ width: '25rem' }}>
-                            <a href="./assets/enterprisingsolutions.png" rel="noreferrer"><img
-                                src={enterprisingsolutions} alt="Enterprising Solutions Site"
-                                className="rounded card-img-top" /></a>
-                            <div className="card-body">
-                                <h6 className="card-title">Enterprising Arrangements</h6>
-                                <p className="card-text">This is a full-stack web application that utilizes a SQL database.
-                                    <br />
-                                    This project is used to search and post venues in your local area. Conglomerate all
-                                    venue types from multiple venue owners on the site for viewers to have easy access
-                                    to the information they need. Or Sign Up and Login to post, edit, or delete venues
-                                    from the site.
-                                    I worked with Noah Tidwell and Ivonne
-                                    <h6><b>Technology used</b></h6>
-                                    <ul>
-                                        <li>HTML5</li>
-                                        <li>ES6</li>
-                                        <li>CSS3</li>
-                                        <li>Bootstrap 5</li>
-                                        <li>Handlebars</li>
-                                        <li>MySQL</li>
-                                        <li>bcrypt 5.0.1</li>
-                                        <li>connect-session-sequelize 7.1.2</li>
-                                        <li>express-handlebars 6.0.1</li>
-                                        <li>express-session 1.17.2</li>
-                                        <li>express 4.17.1</li>
-                                        <li>inquirer 8.2.0</li>
-                                        <li>mysql2 2.3.3</li>
-                                        <li>sequalize 6.12.0</li>
-                                        <li>nodemon 2.0.15 (used briefly for testing)</li>
-                                        <li>Heroku Deployment</li>
-                                    </ul>
-                                </p>
-                            </div>
-                            <div className="card-body">
-                                <a href="https://enterprising-arrangements1.herokuapp.com/" rel="noreferrer"
-                                    className="card-link">Web
-                                    Deployment</a>
-                                <a href="https://github.com/NoahTidwell/Enterprising-Arrangements" rel="noreferrer"
-                                    className="card-link">GitHub
-                                    Page
-                                    link</a>
-
-                            </div>
-                        </div>
-
-                        {/* Third card */}
-
-                        <div className="card rounded-2 card-shadow m-1 mt-3 mb-4" style={{ width: '25rem' }}>
-                            <a href="./assets/webapi.jpg" target="_blank" rel="noreferrer"><img
-                                src={webapi} alt="Social Network Web API"
-                                className="rounded card-img-top"></img></a>
-                            <div className="card-body">
-                                <h6 className="card-title">Social Network Web API</h6>
-                                <p className="card-text">This is an API project for a social network web application that utilizes MongoDB, Express.js, and Mongoose. Users can post their thoughts, react to friend's thoughts, and can add or remove friends from their personal list. This is strictly a back-end project, so you will need to use Insomnia Core or Postman to access the routes.
-
-                                </p>
-                                <h6><b>Technology used</b></h6>
-                                <ul>
-                                    <li>Express: 4.17.1</li>
-                                    <li>Mongoose: 6.1.2</li>
-                                    <li>Mongo DB</li>
-                                </ul>
-                            </div>
-                            <div class="card-body">
-                                <a href="https://github.com/JeffGoji/social-network-api" target="_blank" rel="noreferrer"
-                                    class="card-link">GitHub
-                                    Page
-                                    link</a>
-
-                            </div>
-                        </div>
-
-                        {/* End of cards */}
-
-                    </div>
-
-                </div>
+                <h2 className="text-center card-header bg-primary text-white mt-5 mb-3">Projects</h2>
             </div>
-        </div >
+            <div class="row">
+
+                {props.children}
+                {/* Map through 'portfolioList' and render a 'Card' for each project */}
+                {projectList.map((projects) => (
+                    <Card
+                        key={projects.id}
+                        image={projects.image}
+                        name={projects.name}
+                        description={projects.description}
+                        github={projects.github}
+                        deployed={projects.deployed}
+                    />
+                ))}
+
+            </div>
+
+
+        </section >
 
     );
 }

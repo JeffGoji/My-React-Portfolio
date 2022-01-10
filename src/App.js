@@ -6,6 +6,7 @@ import { Route } from 'react-router-dom';
 import Header from './components/Header'
 import Profile from './components/Profile'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 //styling
@@ -30,6 +31,10 @@ function App() {
 
       <Route path="/profile">
         <Profile />
+      </Route>
+
+      <Route path="/contact">
+        <Contact />
       </Route>
 
 

@@ -112,6 +112,12 @@ footer {
   background: linear-gradient(to bottom, rgb(248, 29, 29), rgb(68, 0, 0));
   color: var(--secondary-color);
   text-shadow: 1px 1px 3px var(--primary-color);
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
 }
 
 footer h4 {

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 //Styling:
 import './index.css';
@@ -12,13 +12,16 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
 
-  <BrowserRouter>
+  <HashRouter>
 
     <App />
     <Background />
 
-  </BrowserRouter >,
+  </HashRouter>,
+
+
   document.getElementById('root')
 );
+
 
 reportWebVitals();

@@ -61,15 +61,15 @@ function Projects(props) {
 
 
     return (
-        <div>
-            <section id="projects" className="container-lg box-padding mt-2 rounded-3">
+        <div >
+            <section id="projects" className="container-fluid  mt-2 rounded-3">
 
                 <div className="row">
 
                     <h2 className="text-center card-header rounded-3 text-white mb-3">Projects</h2>
 
                 </div>
-                <div className="row mb-5 d-flex justify-content-center">
+                <div className="row d-flex justify-content-center">
 
                     {props.children}
                     {/* Map through 'portfolioList' and render a 'Card' for each project */}

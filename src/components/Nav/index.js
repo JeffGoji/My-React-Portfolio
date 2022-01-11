@@ -12,7 +12,8 @@ function Nav() {
             <h1 className="p-2 text-white">JEFFREY ANDERSON-LESTER</h1>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
-            </button>               <div className="collapse navbar-collapse" id="navbarText">
+            </button>
+            <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
                         <NavLink className="nav-link" aria-current="page" to="Profile">About</NavLink>

@@ -1,5 +1,7 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import {
+    HashRouter, Route, Switch,
+} from "react-router-dom";
 
 import Nav from '../Nav';
 import Profile from '../Profile';
@@ -9,43 +11,37 @@ import Contact from '../Contact';
 
 
 
-//React router dom componnent:
-
 
 function Header() {
 
     return (
+
         <header className="container-fluid">
 
             <div className="row">
-                <Nav />
+                <HashRouter>
+                    <Nav />
+                    <Switch>
+                        <Route exact path="/" component={Profile} />
 
-                <Route exact path="/">
-                    <Profile />
-                </Route>
+                        <Route exact path="/projects" component={Projects} />
 
-                <Route path="/projects">
-                    <Projects />
-                </Route>
+                        <Route exact path="/profile" component={Profile} />
 
-                <Route path="/profile">
-                    <Profile />
-                </Route>
+                        <Route path="/resume" component={Resume} />
 
-                <Route path="/resume">
-                    <Resume />
-                </Route>
+                        <Route path="/contact" component={Contact} />
 
-                <Route path="/contact">
-                    <Contact />
-                </Route>
+                    </Switch>
+                </HashRouter>
 
             </div >
 
-        </header>
+        </header >
+
+
     )
 };
-
 
 
 

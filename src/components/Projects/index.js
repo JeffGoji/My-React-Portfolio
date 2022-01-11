@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+
 import Card from "../Card"
+
 
 
 const projects = [
@@ -59,30 +61,34 @@ function Projects(props) {
 
 
     return (
+        <div>
+            <section id="projects" className="container-lg box-padding mt-2 rounded-3">
 
-        <section id="projects" className="container-lg box-padding content-box mt-2 rounded-3">
-            <div className="row">
-                <h2 className="text-center card-header rounded-3 text-white mb-3">Projects</h2>
-            </div>
-            <div className="row mb-5">
+                <div className="row">
 
-                {props.children}
-                {/* Map through 'portfolioList' and render a 'Card' for each project */}
-                {projectList.map((projects) => (
-                    <Card
-                        key={projects.id}
-                        image={projects.image}
-                        name={projects.name}
-                        description={projects.description}
-                        github={projects.github}
-                        deployed={projects.deployed}
-                    />
-                ))}
+                    <h2 className="text-center card-header rounded-3 text-white mb-3">Projects</h2>
 
-            </div>
+                </div>
+                <div className="row mb-5 d-flex justify-content-center">
+
+                    {props.children}
+                    {/* Map through 'portfolioList' and render a 'Card' for each project */}
+                    {projectList.map((projects) => (
+                        <Card
+                            key={projects.id}
+                            image={projects.image}
+                            name={projects.name}
+                            description={projects.description}
+                            github={projects.github}
+                            deployed={projects.deployed}
+                        />
+                    ))}
+
+                </div>
 
 
-        </section >
+            </section >
+        </div>
 
     );
 }

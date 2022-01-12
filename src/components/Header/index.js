@@ -10,8 +10,6 @@ import Resume from '../Resume';
 import Contact from '../Contact';
 
 
-
-
 function Header() {
 
     return (
@@ -38,11 +36,7 @@ function Header() {
             </div >
 
         </header >
-
-
     )
 };
-
-
 
 export default Header;

@@ -7,6 +7,7 @@ const Resume = () => {
             <section className="row">
                 <div className='col-6'>
 
+
                 </div>
 
             </section>

@@ -29,10 +29,10 @@ nav {
 
 header h1 {
   color: var(--secondary-color);
-  font-weight: bold;
-  font-size: 50px;
+  font-size: 70px;
   text-shadow: 1px 1px 6px var(--primary-color);
   text-align: center;
+  font-family: "Libre Barcode 39 Text", cursive;
 }
 
 header h3 {
@@ -85,6 +85,9 @@ h4 {
 
 .card-header {
   background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 224, 11));
+  font-family: "Libre Barcode 39 Text", cursive;
+  font-family: "Monoton", cursive;
+  font-family: "Orbitron", sans-serif;
 }
 
 .card-title {

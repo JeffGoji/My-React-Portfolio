@@ -62,7 +62,7 @@ function Projects(props) {
 
     return (
         <div >
-            <section id="projects" className="container-lg  mt-2">
+            <section id="projects" className="container-lg mt-2">
 
                 <div className="row">
 

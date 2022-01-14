@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-
+import '../../index.css';
 
 function Background({ timeout = 50 }) {
     const canvas = useRef();
@@ -8,7 +8,7 @@ function Background({ timeout = 50 }) {
         const context = canvas.current.getContext('2d');
 
         const width = document.body.offsetWidth;
-        const height = document.body.offsetHeight;
+        const height = document.body.offsetHeight + 900;
         canvas.current.width = width;
         canvas.current.height = height;
 
@@ -18,7 +18,7 @@ function Background({ timeout = 50 }) {
         const columns = Math.floor(width / 20) + 1;
         const yPositions = Array.from({ length: columns }).fill(0);
 
-        context.fillStyle = '#000';
+        context.fillStyle = '#00000';
         context.fillRect(0, 0, width, height);
 
         const matrixEffect = () => {
@@ -51,18 +51,15 @@ function Background({ timeout = 50 }) {
         <div
             style={{
                 background: '#000000',
-                overflow: "visible",
-                position: 'absolute',
-                height: '100%',
-                width: '100%',
+                overflow: 'hidden',
+                position: "fixed",
+                minheight: '100%',
+                minwidth: '100%',
                 zIndex: -1,
                 left: '0',
-                top: '0',
-                bottom: '0',
-                right: '0'
+                top: '0'
 
-            }}
-        >
+            }}>
             <canvas
                 ref={canvas}
             />

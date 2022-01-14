@@ -7,13 +7,12 @@ function Profile() {
 
         <div>
 
-            <div id="profile" className="container-lg mt-2 box-padding">
-                <div className="row mb-3 bg-light content-box rounded-2" >
-
+            <div id="profile" className="container-lg mt-2 box-padding box-bg text-white rounded-3">
+                <div className="row mb-3 rounded-2" >
                     <div className="col-lg-3 col-md-3 col-sm-12">
-                        <img src={Profile1} className="img-fluid shadow bg-primary rounded-2 m-2 mt-3" alt="Jeffrey Anderson-Lester" />
+                        <img src={Profile1} className="img-fluid rounded-2 m-2 mt-5" alt="Jeffrey Anderson-Lester" />
                     </div>
-                    <div className="col-lg-8 col-md-9 col-sm-12 mt-2">
+                    <div className="col-lg-8 col-md-9 col-sm-12 mt-2 fs-5">
                         <h4><strong>About Me</strong></h4>
                         <p>
                             I am Jeffrey Anderson-Lester. I am a Full-stack web developer currently enrolled at the Rice

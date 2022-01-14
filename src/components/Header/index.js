@@ -17,9 +17,13 @@ function Header() {
         <header className="container-fluid">
 
             <div className="row">
+
                 <HashRouter>
+
                     <Nav />
+
                     <Switch>
+
                         <Route exact path="/" component={Profile} />
 
                         <Route exact path="/projects" component={Projects} />
@@ -32,6 +36,7 @@ function Header() {
 
                     </Switch>
                 </HashRouter>
+
 
             </div >
 

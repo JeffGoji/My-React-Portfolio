@@ -5,7 +5,7 @@ function Cards(props) {
 
     return (
 
-        <div className="card rounded-2 card-shadow mt-3 m-1 mb-1" style={{ width: '18rem' }}>
+        <div className="card rounded-2 card-shadow mt-3 m-4 mb-5" style={{ width: '24rem' }}>
             <img alt={props.name} src={props.image} className="rounded card-img-top" />
             <div className="card-body">
                 <h6 className="card-title text-center">{props.name}</h6>

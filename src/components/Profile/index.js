@@ -7,7 +7,7 @@ function Profile() {
 
         <div>
 
-            <div id="profile" className="container-lg mt-2 box-padding box-bg text-white rounded-3">
+            <div id="profile" className="container-lg mt-2 box-padding box-bg text-white rounded-3 content-box">
                 <div className="row mb-3 rounded-2" >
                     <div className="col-lg-3 col-md-3 col-sm-12">
                         <img src={Profile1} className="img-fluid rounded-2 m-2 mt-5" alt="Jeffrey Anderson-Lester" />

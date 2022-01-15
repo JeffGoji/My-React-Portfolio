@@ -5,7 +5,7 @@ My React portfolio built with:
 
 ## Demo Link:
 
-[Jeff's React Portfolio! Now with React JS ](https://github.com/JeffGoji/My-React-Portfolio/)
+[Jeff's React Portfolio! Now with React JS ](https://jeffgoji.github.io/My-React-Portfolio/#/)
 
 ## Licensing:
 

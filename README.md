@@ -1,5 +1,7 @@
 # My-React-Portfolio
-My React portfolio built with ReactJS and Bootstrap 5.
+My React portfolio built with:
+-- ReactJS
+-- Bootstrap 5
 
 ## Demo Link:
 
@@ -20,14 +22,16 @@ My React portfolio built with ReactJS and Bootstrap 5.
 
 ## Description:
 
-This is my portfolio restyled and rebuilt with React JS.
-This project was so much fun to work on and gave me so many options to use for styling, but in honor of the latest Matrix film as of this project and my own love of the original two films (the third film wasn't very good), I wanted to do something in the style of those films.
+This is my portfolio restyled and rebuilt with React JS and Bootstrap 5.
+This project was so much fun to work on and gave me so many options to use for styling, but in honor of the latest Matrix film and my own love of the original two films (the third film wasn't very good), I wanted to do something in the style of those films.
 You have a portfolio here rebuilt in React JS with a Matrix theme, it's designed to be fun and enjoyable and demonstrate what I can do with React JS.  
 It has  About, Contact, Resume, and Project pages in a single page application with the routing system setup to work with GitHub pages to make it display properly.
 
 
 The awesome Matrix background was built by Blopa, and his awesome code can be found here: [https://gist.github.com/blopa/7ba2d74c9405ead1ac9875dbd8a2302d](https://gist.github.com/blopa/7ba2d74c9405ead1ac9875dbd8a2302d)
 You may need to make some adjustments to it like I did to make it work with your project, I found adjusting the height properties was needed to make it work with both desktop and mobile devices as well as screen size and overlflow properties.
+
+Overall this was a great first React JS project and I thoroughly enjoyed working on it.
 
 ## Deployed Website:
 [https://jeffgoji.github.io/My-React-Portfolio/#/](https://jeffgoji.github.io/My-React-Portfolio/#/)

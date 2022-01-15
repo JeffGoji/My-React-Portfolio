@@ -45,7 +45,7 @@ You can start the program by using the "npm run start" command.
 
 ## Usage:
 
-Use this blog however you like. It's a personal blog but I want anyone who looks at it to take whatever inspiration they can from it and make it their own.
+Use this portfolio code however you like. It's a personal portfolio but I want anyone who looks at it to take whatever inspiration they can from it and make it their own.
 
 ## License:
 

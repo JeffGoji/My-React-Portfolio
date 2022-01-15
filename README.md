@@ -1,7 +1,5 @@
 # My-React-Portfolio
-My React portfolio built with:
--- ReactJS
--- Bootstrap 5
+My React portfolio built with ReactJS and styled with Bootstrap 5.
 
 ## Demo Link:
 

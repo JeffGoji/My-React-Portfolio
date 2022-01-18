@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38238ce783dd9eddd11c08eefb408e1f",
+    "revision": "2e0b399543210eeba3e90b536fe875c0",
     "url": "/My-React-Portfolio/index.html"
   },
   {
-    "revision": "c7098dd6c9fbc1d2740a",
+    "revision": "a6507c40af1bb383eb03",
     "url": "/My-React-Portfolio/static/css/2.171a7357.chunk.css"
   },
   {
-    "revision": "8163ec0ae227069239b6",
-    "url": "/My-React-Portfolio/static/css/main.ca7329ed.chunk.css"
+    "revision": "e6208836f1d665b8c661",
+    "url": "/My-React-Portfolio/static/css/main.49030d6b.chunk.css"
   },
   {
-    "revision": "c7098dd6c9fbc1d2740a",
-    "url": "/My-React-Portfolio/static/js/2.98e48ffd.chunk.js"
+    "revision": "a6507c40af1bb383eb03",
+    "url": "/My-React-Portfolio/static/js/2.ff43dc11.chunk.js"
   },
   {
     "revision": "f7e623707d9b37a3821ec4c3548a4309",
-    "url": "/My-React-Portfolio/static/js/2.98e48ffd.chunk.js.LICENSE.txt"
+    "url": "/My-React-Portfolio/static/js/2.ff43dc11.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8163ec0ae227069239b6",
-    "url": "/My-React-Portfolio/static/js/main.f39ca9e6.chunk.js"
+    "revision": "e6208836f1d665b8c661",
+    "url": "/My-React-Portfolio/static/js/main.2d66b812.chunk.js"
   },
   {
     "revision": "d255b624726c81c7e535",
@@ -44,6 +44,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My-React-Portfolio/static/media/classProject1.45295db7.png"
   },
   {
+    "revision": "fd819613110ebe45d2e4d1d99721aa53",
+    "url": "/My-React-Portfolio/static/media/eCommerce.fd819613.png"
+  },
+  {
+    "revision": "6aaeb073e66110e07bd3de5b2a7b556b",
+    "url": "/My-React-Portfolio/static/media/emptracker.6aaeb073.png"
+  },
+  {
     "revision": "8b71a97762ade64a2a2c372a0d1787e1",
     "url": "/My-React-Portfolio/static/media/enterprisingsolutions.8b71a977.png"
   },
@@ -52,12 +60,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My-React-Portfolio/static/media/notetaker1.1c37ea82.png"
   },
   {
+    "revision": "7c7ad9bd10d6b813a03cdc8e4bededac",
+    "url": "/My-React-Portfolio/static/media/quizGame.7c7ad9bd.png"
+  },
+  {
+    "revision": "241a3433d4e348aae60c43aa66ba1581",
+    "url": "/My-React-Portfolio/static/media/readmeGen.241a3433.png"
+  },
+  {
     "revision": "9db11f1ec315c778047732b2d4e23d8a",
     "url": "/My-React-Portfolio/static/media/teamprofile.9db11f1e.png"
   },
   {
     "revision": "f93594216956d1931b3670df706d9ad0",
     "url": "/My-React-Portfolio/static/media/techblog1.f9359421.png"
+  },
+  {
+    "revision": "fc9dc5a22dac7ddfd8599db2d5a40d26",
+    "url": "/My-React-Portfolio/static/media/weatherapi.fc9dc5a2.png"
   },
   {
     "revision": "23e48a3bcd8612fdd618b6305c7d0d70",

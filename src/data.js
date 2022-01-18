@@ -6,6 +6,11 @@ import SocialNet from './assets/webapi.jpg'
 import NoteTaker from './assets/notetaker1.png'
 import TeamProfile from './assets/teamprofile.png'
 import StarGazers from './assets/classProject1.png'
+import empTracker from './assets/emptracker.png'
+import readMe from './assets/readmeGen.png'
+import weatherApi from './assets/weatherapi.png'
+import eCommerce from './assets/eCommerce.png'
+import quizGame from './assets/quizGame.png'
 
 //Data to place inside the cards:
 export default [
@@ -65,6 +70,46 @@ export default [
         description: "Front-end team project built in collaboration with Julie Summers and Reagan Price in an Agile development environment. This website utilizes HTML5, CSS3, JavaScript, and was styled with the Bulma framework. It uses two API calls for the data on the page and it is 100% mobile responsive.",
         github: "https://rprice000.github.io/texas-stargazing/index.html",
         deployed: "https://rprice000.github.io/texas-stargazing/index.html",
+    },
+    {
+        id: 8,
+        image: empTracker,
+        name: "SQL Node Employee Tracker",
+        description: "This is my Employee Tracker SQL command line application. The purpose of the application is to manage Departments, Roles in the company, and the Employees.",
+        github: "https://github.com/JeffGoji/sql-employee-tracker",
+        deployed: "https://youtu.be/fOS-62uyrvs",
+    },
+    {
+        id: 9,
+        image: readMe,
+        name: "Professional README.md Generator App",
+        description: "This is a professional nodeJS README generator that uses the command line and a series of prompts to build a README.MD file for your GitHub page. The README.md file the program generates will be placed in the output folder.",
+        github: "https://github.com/JeffGoji/readme-generator",
+        deployed: "https://www.youtube.com/watch?v=oCDSMqKEUY4",
+    },
+    {
+        id: 10,
+        image: weatherApi,
+        name: "API-Weather-App",
+        description: "This is a Weather App that uses the Open Weather API call for it's weather content. It will save whatever cities you have searched for into local storage and loads them as buttons on the left side. You can click on the generated buttons to reload the weather from those searches.",
+        github: "https://github.com/JeffGoji/API-Weather-App",
+        deployed: "https://jeffgoji.github.io/API-Weather-App/",
+    },
+    {
+        id: 11,
+        image: eCommerce,
+        name: "SQL E-commerce back-end App",
+        description: "This is a functioning back end for an E-commerce site. This application connects to a mySQL database using Express and Sequealize while utilizing RESTful API and CRUD methods.",
+        github: "https://github.com/JeffGoji/E-commerce-Project",
+        deployed: "https://www.youtube.com/watch?v=DMVwrCqtCyY",
+    },
+    {
+        id: 12,
+        image: quizGame,
+        name: "Web API Quiz Game",
+        description: "This is a JavaScript API quiz game. The objective is to complete a 5 question quiz about JavaScript within a set amount of time (60 seconds in this case). If you answer a question incorrectly 10 seconds will be deducted from the time and end the challenge sooner.",
+        github: "https://github.com/JeffGoji/JavaScript-Web-API-Quiz",
+        deployed: "https://jeffgoji.github.io/JavaScript-Web-API-Quiz/",
     },
 
 

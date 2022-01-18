@@ -8,10 +8,6 @@ import App from './App';
 import Background from './components/Background';
 
 
-
-
-import reportWebVitals from './reportWebVitals';
-
 ReactDOM.render(
 
   <HashRouter>
@@ -25,4 +21,4 @@ ReactDOM.render(
 );
 
 
-reportWebVitals();
+

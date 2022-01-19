@@ -13,9 +13,9 @@ function Cards(props) {
                 </p>
             </div>
             <div className="card-body">
-                <a href={props.deployed} rel="noopener noreferrer">Web
+                <a href={props.deployed} rel="noopener noreferrer" className="p-2">Web
                     Deployment</a>
-                <a href={props.github} rel="noopener noreferrer">GitHub
+                <a href={props.github} rel="noopener noreferrer" className="p-2">GitHub
                     Page
                     link</a>
 

@@ -15,7 +15,7 @@ function Profile() {
                     <div className="col-lg-8 col-md-9 col-sm-12 mt-2 fs-5">
                         <h4><strong>About Me</strong></h4>
                         <p>
-                            I am Jeffrey Anderson-Lester. I am a Full-stack web developer currently enrolled at the Rice
+                            I am Jeffrey Anderson-Lester. I am a Full-stack web developer and graduate of the Rice
                             University
                             Full-Stack Developer program.
                             <br />

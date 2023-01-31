@@ -39,20 +39,17 @@ function Contact() {
 
     return (
 
-        <div className="d-flex justify-content-center">
-
-
-            <section className="col-sm-12 col-md-5 col-lg-5 mt-2 content-box box-padding box-bg box-padding mt-2 rounded-3 box-bg" id="contact">
+        <div className="d-flex justify-content-center text-center">
+            <section className="col-sm-12 col-md-5 col-lg-6 mt-2 content-box box-padding box-bg box-padding rounded-3 box-bg" id="contact">
                 <h3 className="text-center card-header rounded-3 text-white mb-3">CONTACT</h3>
                 <div className="row p-3">
 
-                    <div className="col-sm-12 col-md-12 col-lg-6">
+                    <div className="col-sm-12 col-md-12 col-lg-12">
 
-                        <ul className="list-group list-group-flush mt-5 rounded-3">
+                        <ul className="list-group list-group-flush rounded-3">
                             <li className="list-group-item fw-bold">E-mail: <a href="mailto:jeff.lester01@outlook.com">
                                 jeff.lester01@outlook.com</a></li>
 
-                            <li className="list-group-item fw-bold">Phone: <a href="tel:7133717902">713-371-7902</a></li>
                             <li className="list-group-item fw-bold">LinkedIn Profile: <a
                                 href="https://www.linkedin.com/in/jeffrey-anderson-lester-36b23b112/ " target="_blank"
                                 rel="noopener noreferrer"> Jeffrey
@@ -63,7 +60,8 @@ function Contact() {
 
                         </ul>
                     </div>
-                    <div className="col-sm-12 col-md-12 col-lg-6">
+
+                    {/* <div className="col-sm-12 col-md-12 col-lg-6">
                         <div className="mb-3">
 
                             <form id="contact-form" onSubmit={handleSubmit}>
@@ -90,7 +88,7 @@ function Contact() {
 
                         </div>
 
-                    </div>
+                    </div> */}
 
                 </div>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+// Profile picture
 import Profile1 from "../../assets/Profile1.jpg"
 
 function Profile() {

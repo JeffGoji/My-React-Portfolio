@@ -23,7 +23,7 @@ function Profile() {
                             Bootstrap 5, Express.JS, nodeJS, SQL, NoSQL,
                             React,
                             and
-                            MERN.
+                            MERN. I always have worked with legacy .net 4 MVC and .net 6 backends.
                             <br />
                             <br />
                             Fully versed in Windows OS, fully versed in command line and setting up and using virtual

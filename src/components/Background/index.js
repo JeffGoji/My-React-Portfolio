@@ -2,6 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import '../../index.css';
 
 function Background({ timeout = 50 }) {
+
+    /*Canvas code*/
+
     const canvas = useRef();
 
     useEffect(() => {

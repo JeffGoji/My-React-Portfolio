@@ -21,9 +21,10 @@ function Profile() {
                             <br />
                             I am specializing in full-stack web development which consist of HTML5, CSS3, JavaScript, Git, jQuery,
                             Bootstrap 5, Express.JS, nodeJS, SQL, NoSQL,
-                            React,
+                            React, .Net 4 MVC, .Net6/React,
                             and
                             MERN.
+
                             <br />
                             <br />
                             Fully versed in Windows OS, fully versed in command line and setting up and using virtual

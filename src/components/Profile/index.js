@@ -15,15 +15,14 @@ function Profile() {
                     <div className="col-lg-8 col-md-9 col-sm-12 mt-2 fs-5">
                         <h4><strong>About Me</strong></h4>
                         <p>
-                            I am Jeffrey Anderson-Lester. I am a Full-stack web developer currently enrolled at the Rice
+                            I am Jeffrey Anderson-Lester. I am a Full-stack web developer and graduate of the Rice
                             University
                             Full-Stack Developer program.
                             <br />
                             I am specializing in full-stack web development which consist of HTML5, CSS3, JavaScript, Git, jQuery,
                             Bootstrap 5, Express.JS, nodeJS, SQL, NoSQL,
                             React, .Net 4 MVC, .Net6/React,
-                            and
-                            MERN.
+                            and MERN. I have also have worked with legacy .net 4 MVC and .net 6 backends.
 
                             <br />
                             <br />

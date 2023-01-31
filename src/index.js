@@ -13,7 +13,6 @@ ReactDOM.render(
   <HashRouter>
     <App />
     <Background />
-
   </HashRouter>,
 
 

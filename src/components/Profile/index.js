@@ -1,6 +1,6 @@
 import React from 'react';
 // Profile picture
-import Profile1 from "../../assets/Profile1.jpg"
+import Profile1 from "../../assets/Profile3.jpg"
 
 function Profile() {
 

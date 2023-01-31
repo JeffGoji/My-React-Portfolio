@@ -1,6 +1,5 @@
 {
   "name": "my-react-portfolio",
-  "homepage": "https://jeffgoji.github.io/My-React-Portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
